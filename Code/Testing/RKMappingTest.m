@@ -18,12 +18,12 @@
 //  limitations under the License.
 //
 
-#import <RestKit/ObjectMapping/RKObjectMappingOperationDataSource.h>
-#import <RestKit/ObjectMapping/RKObjectUtilities.h>
-#import <RestKit/ObjectMapping/RKRelationshipMapping.h>
-#import <RestKit/Support/RKErrors.h>
-#import <RestKit/Support/RKLog.h>
-#import <RestKit/Testing/RKMappingTest.h>
+#import <RestKit/RKObjectMappingOperationDataSource.h>
+#import <RestKit/RKObjectUtilities.h>
+#import <RestKit/RKRelationshipMapping.h>
+#import <RestKit/RKErrors.h>
+#import <RestKit/RKLog.h>
+#import <RestKit/RKMappingTest.h>
 
 // Core Data
 #ifdef _COREDATADEFINES_H

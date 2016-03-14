@@ -18,11 +18,12 @@
 //  limitations under the License.
 //
 
-#import <RestKit/Network/RKPaginator.h>
-#import <RestKit/Network/RKRouter.h>
-#import <RestKit/Support/RKMacros.h>
+#import <RestKit/RKPaginator.h>
+#import <RestKit/RKRouter.h>
+#import <RestKit/RKMacros.h>
 
 #import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFHTTPClient.h>
 
 #ifdef _COREDATADEFINES_H
 #   if __has_include(<RestKit/CoreData.h>)
@@ -889,5 +890,6 @@ RKMappingResult, RKRequestDescriptor, RKResponseDescriptor;
  @param networkReachabilityStatus The network reachability status.
  @return A string describing the reachability status.
  */
-NSString *RKStringFromNetworkReachabilityStatus(AFNetworkReachabilityStatus networkReachabilityStatus);
+//FIXME
+//NSString *RKStringFromNetworkReachabilityStatus(AFNetworkReachabilityStatus networkReachabilityStatus);
 #endif

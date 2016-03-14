@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import <RestKit/Support/RKLog.h>
+#import <RestKit/RKLog.h>
 
 @interface RKNSLogLogger : NSObject <RKLogging>
 @end
